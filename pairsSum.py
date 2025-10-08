@@ -6,6 +6,6 @@ def pairsSum(arr):
             if i+j == 10:
                 pairs = i, j
                 newArr.append(pairs)
-    print(pairs)
+    print(newArr)
 
 pairsSum([2,7,3,8,4])
